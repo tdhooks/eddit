@@ -1,0 +1,10 @@
+<h2>{{ post.title }}</h2>
+<p>{{ post.content }}</p>
+<hr>
+<form method="POST" action="{% url 'comment' post.id %}">
+    {% csrf_token %}
+    <label for="content">Comment:</label>
+    <textarea id="content" name="content" rows="4" cols="50" maxlength="1000"></textarea>
+    
+    <button type="submit">Submit post</button>
+</form>
