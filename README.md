@@ -1,6 +1,6 @@
 # Eddit
 
-[Demo video here](https://youtu.be/9nuX9ETmUgA), you will need want to watch in HD.
+Forked from private SCCapstone/m3-tdhooks
 
 Eddit is a dirt simple anonymous chat app build with Django and hosted in Docker. To run eddit, first ensure you have docker installed, then run the following command from the root directory:
 
